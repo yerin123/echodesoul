@@ -1,0 +1,45 @@
+@font-face{
+  font-family:'Butler';
+  src:url(../font/Butler/Butler_Bold.otf) format('opentype');
+}
+
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration: none; color:inherit;}
+
+nav{
+  width:1200px;
+  margin:auto;
+}
+nav .logo{
+  margin-top:50px;
+  position:relative;
+}
+nav .logo img{
+  height:300px;
+}
+nav .logo h1{
+  font-size: 50px;
+  font-family:'Butler';
+  position:absolute;
+  top:240px; left:185px;
+}
+nav hr{
+  margin:10px 0;
+}
+nav .category{  
+  overflow: hidden;
+  width:1000px;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+}
+nav .category li{
+  float:left;
+  font-size:15px;
+  width:90px;
+}
+nav .category li:hover{
+  font-weight: bold;
+}
